@@ -1,0 +1,48 @@
+.header{
+    background: lightsalmon;
+    display :flex;
+    justify-content: space-between;
+}
+
+.hamburger{
+    margin-left: 20px;
+    margin-top: 25px;
+    size: 200px;
+    color:black;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.grid{
+    display:flex;
+    justify-content:space-around;
+    background-color:lightseagreen;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: black;
+    border-radius: 20px;
+}
+
+.item{
+    border : black solid;
+    border-radius: 20px;
+    background-color: white;
+    align-content: center;
+    max-width: 350px;
+
+}
+
+h3{
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.description{
+    background-color: lightgrey;
+}
+
